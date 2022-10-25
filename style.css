@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+background-color: #ffe5d3;
+
+}
+
+header{
+
+background-color: #f8481f;
+height: 75px;
+
+}
+
+footer{
+
+background-color: #f8481f;
+
+}
+
+.title{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 55px;
+font-weight: 700;
+
+color: #f8481f;
+
+margin-top: 50px;
+text-align: center;
+
+}
+
+.first-block{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 50px;
+align-items: center;
+}
+
+.block{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.last-block{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-bottom: 50px;
+align-items: center;
+}
+
+.block1-text{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 50px;
+  
+}
+
+.block2-text{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 15px;
+margin-right: 50px;
+}
+
+.block3-text{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 50px;
+    
+}
+
+.block4-text{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 50px;
+margin-top: 10px;     
+
+}
+
+
+.text{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+font-weight: 500;
+    
+color: #2b2b2b;
+    
+width: 500px;
+  
+margin-top: 50px;
+margin-left: 50px;
+
+text-align: justify;
+line-height: 30px;
+
+}
+
+.phrase{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 25px;
+font-weight: 500;
+
+color: #ffffff;
+background-color: #fc7d4d;
+
+height: 55px;
+width: 500px;
+border-radius: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin-left: 60px;
+margin-top: 50px;
+
+}
+
+.img{
+
+width: 600px;
+height: 400px;
+
+margin-top: 50px;
+margin-right: 50px;
+margin-left: 50px;
+margin-bottom: 50px;
+
+border-radius: 25px;
+
+}
+
+.img2{
+
+width: 600px;
+height: 400px;
+    
+margin-top: 120px;
+margin-right: 50px;
+margin-left: 50px;
+    
+border-radius: 25px;
+    
+}
+
+.authors-list{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 15px;
+font-weight: 500;
+    
+color:#ffffff;
+
+padding-top: 25px;
+display: flex;
+justify-content: center;
+gap: 30px;
+
+list-style: none;
+
+}
+
+.disclaimer{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 12px;
+font-weight: 500;
+        
+color:#ffffff;
+
+padding: 20px;
+text-align: center;
+
+}
